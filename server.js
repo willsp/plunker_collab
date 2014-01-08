@@ -5,6 +5,6 @@ var nconf = require("nconf")
   , server = require("./index");
 
 
-http.createServer(server).listen(nconf.get("PORT"));
+http.createServer(server).listen(nconf.get("port"));
 
-console.log("Server started on port", nconf.get("PORT"))
+console.log("Server started on port", nconf.get("port"))

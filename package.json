@@ -26,7 +26,8 @@
     "lactate": "0.12.x",
     "connect-assets": "2.3.x",
     "request": "2.12.x",
-    "lru": "0.1.x"
+    "lru": "0.1.x",
+    "share": "0.6.x"
   },
   "keywords": [
     "plunker",
